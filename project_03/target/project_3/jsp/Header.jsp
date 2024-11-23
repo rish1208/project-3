@@ -29,7 +29,7 @@
 
 <style type="text/css">
 .reg {
-	background-image: linear-gradient(to bottom right, yellow, grey);
+	background-image: linear-gradient(to bottom right, blue, yellow, grey);
 }
 </style>
 </head>
@@ -50,7 +50,6 @@
 	%>
 	<div class="header">
 
-
 		<nav class="navbar navbar-expand-lg reg fixed-top"> <a
 			class="navbar-brand" href="<%=ORSView.WELCOME_CTL%>"><img
 			src="<%=ORSView.APP_CONTEXT%>/img/custom.png" width="190px"
@@ -67,6 +66,7 @@
 
 		<div class="collapse navbar-collapse" id="navbarNav">
 
+			
 			<ul class="nav navbar-nav ml-auto">
 
 				<a class="nav-link" href="#"> <span class="sr-only">(current)</span>
@@ -278,8 +278,60 @@
 						</a>
 
 					</div></li>
+					<%-- 
+					<li class="nav-item dropdown" style="padding-left: 5px"><a
+					class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+					role="button" data-toggle="dropdown" aria-haspopup="true"
+					aria-expanded="false"> <font style="color: white;">Product</font>
 
+				</a>
 
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+						<a class="dropdown-item" href="<%=ORSView.PRODUCT_CTL%>"><i
+							class="fas fa-calculator"></i>Add Product </a> <a
+							class="dropdown-item" href="<%=ORSView.PRODUCT_LIST_CTL%>"> <i
+							class="fas fa-sort-amount-down"></i>Product List
+
+						</a>
+
+					</div></li>
+
+<li class="nav-item dropdown" style="padding-left: 5px"><a
+					class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+					role="button" data-toggle="dropdown" aria-haspopup="true"
+					aria-expanded="false"> <font style="color: white;">Lone</font>
+
+				</a>
+
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+						<a class="dropdown-item" href="<%=ORSView.LONE_CTL%>"><i
+							class="fas fa-calculator"></i>Add Lone </a> <a
+							class="dropdown-item" href="<%=ORSView.LONE_LIST_CTL%>"> <i
+							class="fas fa-sort-amount-down"></i>Lone List
+
+						</a>
+
+					</div></li>
+
+<li class="nav-item dropdown" style="padding-left: 5px"><a
+					class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+					role="button" data-toggle="dropdown" aria-haspopup="true"
+					aria-expanded="false"> <font style="color: white;">Vehicle</font>
+
+				</a>
+
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+						<a class="dropdown-item" href="<%=ORSView.Vehicle_CTL%>"><i
+							class="fas fa-calculator"></i>Add Vehicle </a> <a
+							class="dropdown-item" href="<%=ORSView.Vehicle_LIST_CTL%>"> <i
+							class="fas fa-sort-amount-down"></i>Vehicle List
+
+						</a>
+
+					</div></li> --%>
 
 				<%
 					}
